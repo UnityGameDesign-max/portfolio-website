@@ -1,0 +1,171 @@
+.contacts{
+    background: rgba(43, 41, 41, 0.555);
+    
+}
+
+.contact__icons{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.submit__button{
+    margin-bottom: 12px;
+    background: rgba(17, 135, 204, 0.651);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius:6px ;
+    margin-bottom: 40px;
+}
+
+.github__icons{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.github__icons:hover{
+    color: #091c29;
+}
+
+.linkedin__icons{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.linkedin__icons:hover{
+    color: #0e76a8;
+}
+
+.twitter__icons{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.twitter__icons:hover{
+    color: #1DA1F2;
+}
+
+.contacts__bgText{
+    text-align:center;
+    font-family: Montserrat;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 0;
+    position: relative;
+}
+
+.contacts__bgText::before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height:7px;
+    background-color:rgb(17, 135, 204);
+    bottom:-0.9px;
+}
+
+.contacts__icons__github{
+    color: black;
+
+}
+
+.all__contacts__icons{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.column__contacts{
+    display:flex;
+    justify-content:space-evenly;
+   
+}
+
+
+
+@media only screen and (max-width: 520px){
+
+    form{
+        text-align: center;
+    }
+
+    .row__text{
+        margin-left: 40px;
+    }
+    .contact{
+        height: 990px;
+    }
+    .contacts__icons__github{
+        color: black;
+    
+    
+    }
+
+    .all__contacts__icons{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .column__contacts{
+        display:flex;
+        justify-content:space-evenly;
+    
+        
+    }
+
+    .col__1{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .col__1 .contacts__icons__github{
+        margin-right: 30px;
+    }
+    
+    
+    .col__2{
+        display:flex;
+        flex-direction: column;   
+    }
+    
+
+}
+
+@media only screen and (max-width: 769px){
+
+    .contact{
+        height: 730px;
+    }
+    .contacts__icons__github{
+        color: black;
+    
+    
+    }
+
+    .all__contacts__icons{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .column__contacts{
+        display:flex;
+        justify-content:space-evenly;
+    
+        
+    }
+
+    .col__1{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .col__1 .contacts__icons__github{
+        margin-right: 30px;
+    }
+    
+    
+    .col__2{
+        display:flex;
+        flex-direction: column;   
+    }
+
+}
