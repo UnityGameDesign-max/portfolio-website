@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TumiDev</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h4 class="logo">TumiDev</h4>
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/HamMenu.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/close.svg" alt="close" /></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/HtmlCssJs.svg" alt="htmlCssJs graphic" class="htmlCssJs">
+            <h2>Real World Web Applications</h2>
+            <p>Hire Tumelo &#x1F447;</p>
+            <img src="images/Group18.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="about-container" id="about">
+        <h2>About Me!</h2>
+        <div class="about-content">
+            <img src="images/Hacker.svg" alt="hacker graphic" class="hacker">
+            <p>
+                I am a Self-taught Full Stack developer with the passion to build amazing software, web applications and mobile Applications.
+                I started learning programming 2019 while I was still at the University of Witswatersrand with the aim of becoming the best Game developer 
+                in Unity Game Engine and Unreal Engine.&#x1F625; Unfortunately couldn't continue because of certain circumstances.
+                I then met software development and decided to try it out. I loved it ever since &#x1F91F; 
+            </p>
+        </div>
+        
+
+    </div>
+
+    <div class="skills" id="skills">
+        <h1 class="skills">Skills</h1>
+        <h3>The Featured Skills</h3>
+        <h2 class="skills-tech">Modern Technology stacks</h2>
+        <p class="skills-paragraph">
+            These are technologies I have experience with, and some I have created multiple projects with them.
+        
+        </p>
+
+        <div class="row1-skills">
+            <img src="images/python.png" alt="python" class="python">
+            <img src="images/react.png" alt="react" class="react">
+            <img src="images/mysql.png" alt="mysql" class="mysql">
+        </div>
+
+        <div class="row2-skills">
+            <img src="images/htmlCssJs.png" alt="htmlCssJs" class="htmlCssJs">
+            <img src="images/mongoDb.png" alt="mongoDb" class="mongoDb">
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h1 class="project">Projects</h1>
+        <img src="images/commits.svg" alt="project graphic" class="project">
+        <div class="project-view">
+            <div class="project-show">
+                <h3>Instagram clone</h3>
+                <p>The Instagram clone that was build with react</p>
+                <p class="status">status: Public</p>
+                <a href="projects.html">View Project: &#x1F448;</a>
+            </div>
+            <div class="project-show">
+                <h3>Accounting Software</h3>
+                <p>The Accounting Software that was build using FastAPI</p>
+                <p class="status">status: Private</p>
+                <a class="instagram-clone" href="projects.html">View Project: &#x1F448;</a>
+            </div>
+            <div class="project-show">
+                <h3>AmazonClone</h3>
+                <p>The Amazon clone that was build with react</p>
+                <p class="status">status: Public</p>
+                <a href="projects.html">View Project: &#x1F448;</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume" id="resume">
+        <h1>Resume</h1>
+        <div class="resume-content">
+            <img src="images/CV.svg" alt="resume" class="resumeCV" />
+            <p>This is a Resume of Tumelo Mahlangu that contains all the information about Skills, interests and qualifications.</p>
+        </div>
+        
+        <a class="download" href="Resume.pdf" target="_blank">Download</a>
+    </div>
+
+    <div class="Contacts" id="contacts">
+        <div data-aos="fade-up">
+            <h1 class="contacts">Contacts</h1>
+        </div>
+        
+        <form action="#">
+            
+            <input type="text" id="name" name="name" placeholder="name"><br><br>
+            <input type="text" id="email" name="email" placeholder="email"><br><br>
+            <textarea  id="w3review" class="message-area" name="w3review" rows="4" cols="20" placeholder="message"></textarea>
+            <a href="#" class="submit-btn" type="sumbit">Submit</a>
+        </form>
+
+        <div class="social-media">
+            <a href="http://twitter.com/Tumelo34543794"><img src="images/twitter.svg" alt="twitter" class="twitter">
+            <a href="https://github.com/UnityGameDesign-max"><img src="images/github.svg" alt="github" class="github"></a>
+        </div>
+
+        <div class="contact-details">
+            <span class="email">tumie201511@gmail</span>    
+            <span class="phone">+27629292602</span>                
+        </div>
+        
+    </div>
+
+    <script>
+        var menu = document.getElementById("menu");
+        var nav = document.getElementById("nav");
+        var exit = document.getElementById("exit");
+
+        menu.addEventListener("click", function(){
+            nav.classList.toggle("hide-mobile");
+            e.preventDefault();
+        });
+
+        exit.addEventListener("click", function(){
+            nav.classList.add("hide-mobile");
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
