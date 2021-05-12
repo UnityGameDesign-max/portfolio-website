@@ -320,6 +320,14 @@ form{
         display:grid;
         grid-template-columns: 33.3% 33.3% 33%;
     }
+
+    .contact-details .phone{
+        font-size: 0.9em;
+    }
+
+    .contact-details .email{
+        font-size: 0.9em;
+    }
     
 }
 
@@ -403,6 +411,14 @@ form{
     .resume-content{
         display: flex;
         flex-direction: row;
+    }
+
+    .contact-details .phone{
+        font-size: 1em;
+    }
+
+    .contact-details .email{
+        font-size: 1em;
     }
 
 }

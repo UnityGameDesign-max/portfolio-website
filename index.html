@@ -18,11 +18,11 @@
                 </a>
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li id="exit" class="exit-btn hide-desktop"><img src="images/close.svg" alt="close" /></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a id="about1" href="#about">About</a></li>
+                    <li><a id="skills1" href="#skills">Skills</a></li>
                     <!-- <li><a href="#projects">Projects</a></li> -->
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a id="resume1" href="#resume">Resume</a></li>
+                    <li><a id="contacts1" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </header>
@@ -135,7 +135,10 @@
         var menu = document.getElementById("menu");
         var nav = document.getElementById("nav");
         var exit = document.getElementById("exit");
-        var about = document.getElementById("about");
+        var about = document.getElementById("about1");
+        var skills = document.getElementById("skills1");
+        var resume = document.getElementById("resume1");
+        var contacts = document.getElementById("contacts1");
 
 
         about.addEventListener("click", function(){
@@ -143,12 +146,28 @@
             e.preventDefault();
         });
 
-        menu.addEventListener("click", function(){
+        skills.addEventListener("click", function(){
+            nav.classList.add("hide-mobile");
+            e.preventDefault();
+        });
+
+        resume.addEventListener("click", function(){
+            nav.classList.add("hide-mobile");
+            e.preventDefault();
+        });
+
+        contacts.addEventListener("click", function(){
+            nav.classList.add("hide-mobile");
+            e.preventDefault();
+        });
+
+
+        menu.addEventListener("click", function(e){
             nav.classList.toggle("hide-mobile");
             e.preventDefault();
         });
 
-        exit.addEventListener("click", function(){
+        exit.addEventListener("click", function(e){
             nav.classList.add("hide-mobile");
             e.preventDefault();
         });
