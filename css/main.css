@@ -1,436 +1,427 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 
-body{
-    margin: 0;
-    font-family: 'Montserrat', 'sans-serif';
+body {
+  margin: 0;
+  font-family: "Montserrat", "sans-serif";
 }
 
-p{
-    font-size: 0.9em;
-    line-height: 1.6em;
+p {
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    text-align: center;
-    
+.container {
+  text-align: center;
 }
 
 .logo {
-    color: white;
-    margin-left: 7px;
+  color: white;
+  margin-left: 7px;
 }
 
-header a{
-    text-decoration: none;
+header a {
+  text-decoration: none;
 }
 
-.logo:hover{
-    color: rgb(17, 135, 204);
+.logo:hover {
+  color: rgb(17, 135, 204);
 }
-nav ul{
-    position: fixed;
-    width: 60%;
-    top: 0;
-    right: 0;
-    text-align: left;
-    background-color:rgba(36, 41, 44, 0.829);
-    height: 100%;
-    z-index: 7;
-    padding-top: 3em;
-}
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    padding: 1em 2em;
-    background-color: rgb(49, 52, 59);
+nav ul {
+  position: fixed;
+  width: 60%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background-color: rgba(36, 41, 44, 0.829);
+  height: 100%;
+  z-index: 7;
+  padding-top: 3em;
 }
 
-nav ul li a:hover{
-    background-color:rgb(65, 73, 78);
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  background-color: rgb(49, 52, 59);
 }
 
-.exit-btn{
-    margin-bottom: 1em;
-    margin-top: -1.3em;
-    text-align: right;
-    padding: 0 1.4em;
+nav ul li a:hover {
+  background-color: rgb(65, 73, 78);
 }
 
-.exit-btn img{
-    cursor: pointer;
+.exit-btn {
+  margin-bottom: 1em;
+  margin-top: -1.3em;
+  text-align: right;
+  padding: 0 1.4em;
 }
 
-
-
-header{
-    display: flex;
-    justify-content: space-between;
-    background: #091c29;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+.exit-btn img {
+  cursor: pointer;
 }
 
-.hide-mobile{
-    display: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #091c29;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
-.menu{
-    width: 25px;
-    margin-top: 70%;
-    margin-right: 7px;
+.hide-mobile {
+  display: none;
 }
 
-section{
-    background: #091c29;
-    height: 60%;
+.menu {
+  width: 25px;
+  margin-top: 70%;
+  margin-right: 7px;
 }
 
-section p{
-    margin-bottom: 0;
-    color: white;
+section {
+  background: #091c29;
+  height: 60%;
 }
 
-section h2{
-    color: rgb(17, 135, 204);
-} 
-.htmlCssJs{
-    width: 70%;
-    margin: 2em auto 10%;
+section p {
+  margin-bottom: 0;
+  color: white;
 }
 
-.about-container{
-    padding: 10px;
-    text-align: center;
-    background: #f1f3f5;
+section h2 {
+  color: rgb(17, 135, 204);
+}
+.htmlCssJs {
+  width: 70%;
+  margin: 2em auto 10%;
 }
 
-.about-container h2{
-    text-align: center;
-    margin-top: 20px;
+.about-container {
+  padding: 10px;
+  text-align: center;
+  background: #f1f3f5;
 }
 
-.hacker{
-    width: 70%;
-    text-align: center;
+.about-container h2 {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.skills{
-    text-align: center;
-    background: rgb(17, 135, 204);
-    color: white;
-    padding: 5px;
+.hacker {
+  width: 70%;
+  text-align: center;
 }
 
-.skills h1{
-    margin-top:0;
-    margin-bottom: 16px;
+.skills {
+  text-align: center;
+  background: rgb(17, 135, 204);
+  color: white;
+  padding: 5px;
 }
 
-.skills .python{
-    width: 60%;
+.skills h1 {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
-.skills .react{
-    width: 70%;
+.skills .python {
+  width: 60%;
 }
 
-.skills .mysql{
-    width: 70%;
+.skills .react {
+  width: 70%;
 }
 
-.skills .htmlCssJs{
-    width: 60%;
+.skills .mysql {
+  width: 70%;
 }
 
-.skills .mongoDb{
-    width: 70%;
+.skills .htmlCssJs {
+  width: 60%;
+}
+
+.skills .mongoDb {
+  width: 70%;
 }
 
 .projects {
-    text-align: center;
-    display: grid;
-    place-items: center;
+  text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 .projects img {
-    width: 70%;
-    text-align: center;
-    margin-bottom: 10px;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.projects p{
-    font-size: 0.7em;
-    margin-bottom: 12px;
+.projects p {
+  font-size: 0.7em;
+  margin-bottom: 12px;
 }
 
-.projects .status{
-    margin-bottom: 0;
+.projects .status {
+  margin-bottom: 0;
 }
-.projects a{
-    text-decoration:none;
-    color: rgb(87, 219, 35);
+.projects a {
+  text-decoration: none;
+  color: rgb(87, 219, 35);
 }
 
-.projects .project-show{
-    text-align: center;
+.projects .project-show {
+  text-align: center;
+  width: 80%;
+  height: 90%;
+  margin-bottom: 19px;
+  background-color: rgb(17, 135, 204);
+  color: white;
+  box-shadow: 3px 4px 6px lightgrey;
+}
+
+.project-view {
+  display: grid;
+  place-items: center;
+}
+
+.resume {
+  background-color: #f1f3f5;
+  text-align: center;
+  padding: 7px;
+}
+
+.resume {
+  display: grid;
+  place-items: center;
+}
+
+.resume img {
+  width: 70%;
+}
+
+.resume a {
+  background: rgb(17, 135, 204);
+  text-align: center;
+  color: #ffff;
+  text-decoration: none;
+  width: calc(300px - 10em);
+  display: block;
+  border-radius: 20px;
+  padding: 0.5em;
+  margin-bottom: 5px;
+}
+
+.Contacts {
+  text-align: center;
+  background-color: #3d444a;
+  color: white;
+  padding: 8px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media img {
+  width: 20%;
+  color: rgba(0, 0, 0, 0.527);
+}
+form {
+  display: grid;
+  place-items: center;
+}
+
+.contact-details {
+  display: flex;
+}
+
+.contact-details img {
+  width: 7%;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.contact-details span {
+  font-size: 0.5em;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  color: rgb(17, 135, 204);
+}
+
+.contact-details .email {
+  margin-right: 7px;
+  font-size: 0.7em;
+}
+
+.contact-details .phone {
+  font-size: 0.7em;
+}
+
+.message-area {
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  background: #00cc80;
+  text-align: center;
+  color: #ffff;
+  text-decoration: none;
+  width: calc(300px - 10em);
+  display: block;
+  border-radius: 20px;
+  padding: 0.5em;
+  margin-bottom: 20px;
+  border: none;
+}
+
+@media only screen and (min-width: 650px) {
+  .htmlCssJs {
+    width: 50%;
+  }
+  section h2 {
+    font-size: 3em;
+  }
+
+  section p {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  .about-container img {
     width: 80%;
-    height:90%;
+  }
+  .row1-skills {
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+  }
+  .row2-skills {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .project-view {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33%;
+  }
+
+  .contact-details .phone {
+    font-size: 0.9em;
+  }
+
+  .contact-details .email {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .show-desktop {
+    display: block;
+    margin: 0 auto 13% auto;
+  }
+
+  input[type="text"] {
+    padding: 0.6em 8em 0 0 ;
+    
+  }
+
+  input[type="email"] {
+    padding: 0.6em 8em 0 0 ;
+   
+  }
+
+  form textarea {
+    padding: 0.6em 8em 0 0 ;
+  }
+  .hide-desktop {
+    display: none;
+  }
+
+  section p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul {
+    position: inherit;
+    width: auto;
+    background: none;
+    height: auto;
+    display: flex;
+    padding-top: 0;
+    margin-right: 10px;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  img.scroll {
+    width: 20px;
+    margin-bottom: 0px;
+    padding: 50px;
+  }
+
+  .scroll {
+    animation: move 3s infinite alternate;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  nav ul li a {
+    color: white;
+    background-color: inherit;
+    padding: 1em 0.5em;
+  }
+
+  nav ul li a:hover {
+    background-color: inherit;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-container img {
+    width: 50%;
+  }
+  .resume img {
     margin-bottom: 19px;
-    background-color: rgb(17, 135, 204);
-    color: white;
-    box-shadow: 3px 4px 6px lightgrey;
+  }
 
-}
+  .resume p {
+    width: 350px;
+  }
 
-.project-view{
-    display: grid;
-    place-items: center;
-}
-
-.resume{
-    background-color:#f1f3f5;
-    text-align: center;
-    padding: 7px;
-}
-
-.resume{
-    display: grid;
-    place-items: center;
-}
-
-.resume img{
-    width: 70%;
-}
-
-.resume a{
-    background: rgb(17, 135, 204);
-    text-align: center;
-    color: #ffff;
-    text-decoration: none;
-    width: calc(300px - 10em);
-    display: block;
-    border-radius: 20px;
-    padding: .5em;
-    margin-bottom: 5px;
-}
-
-.Contacts{
-    text-align: center;
-    background-color: #3D444A;
-    color: white;
-    padding: 8px;
-}
-
-.social-media{
+  .resume-content {
     display: flex;
-    justify-content: space-between;
-}
-.social-media img{
-    width: 20%;
-    color: rgba(0, 0, 0, 0.527);
+    flex-direction: row;
+  }
 
-}
-form{
-    display: grid;
-    place-items: center;
-}
+  .contact-details .phone {
+    font-size: 1em;
+  }
 
-.contact-details{
-    display: flex;
-}
-
-.contact-details img{
-    width: 7%;
-    color: rgba(0, 0, 0, 0.527);
-}
-
-.contact-details span{
-    font-size: 0.5em;
-}
-
-.contact-details{
-    display: flex;
-    justify-content: center;
-    color: rgb(17, 135, 204);
-}
-
-.contact-details .email{
-    margin-right: 7px;
-    font-size: 0.7em;
-}
-
-.contact-details .phone{
-    font-size: 0.7em;
-}
-
-.message-area{
-    margin-bottom: 10px;
-}
-
-.submit-btn{ 
-    background: #00CC80;
-    text-align: center;
-    color: #ffff;
-    text-decoration: none;
-    width: calc(300px - 10em);
-    display: block;
-    border-radius: 20px;
-    padding:0.5em;
-    margin-bottom: 20px;
-    border: none;
-} 
-
-@media only screen and (min-width: 650px){
-    .htmlCssJs{
-        width: 50%;
-    }
-    section h2{
-        font-size: 3em;
-    }
-
-    section p{
-        font-size: 1.2em;
-        padding: 20px;
-    }
-
-    .about-container img{
-        width: 80%;
-    }
-    .row1-skills{
-        display:grid;
-        grid-template-columns: 33% 33% auto;
-    }
-    .row2-skills{
-        display:grid;
-        grid-template-columns: 50% 50%;
-    }
-
-    .project-view{
-        display:grid;
-        grid-template-columns: 33.3% 33.3% 33%;
-    }
-
-    .contact-details .phone{
-        font-size: 0.9em;
-    }
-
-    .contact-details .email{
-        font-size: 0.9em;
-    }
-    
-}
-
-@media only screen and (min-width: 1024px){
-
-    .show-desktop {
-        display: block;
-        margin: 0 auto 13% auto;
-    }
-
-    input[type="text"]{
-        padding: 0.6em 0 0 6em;
-        
-    }
-
-    input[type="email"]{
-        padding: 0.6em 0 0 6em;
-    }
-
-    form textarea{
-        padding: 0.6em 0 0 6em;
-    }
-    .hide-desktop {
-        display: none;
-    }
-
-    section p{
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    
-    nav ul{
-        position: inherit;
-        width: auto;
-        background: none;
-        height: auto;
-        display: flex;
-        padding-top: 0;
-        margin-right: 10px;
-    }
-
-    nav ul li{
-        float: left;
-    }
-
-    img.scroll{ 
-        width: 20px;
-        margin-bottom: 0px;
-        padding: 50px;
-    }
-
-    .scroll{
-        animation: move 3s infinite alternate
-    }
-
-    @keyframes move{
-        0%{
-            transform: translateY(0px);
-        }
-        100%{
-            transform: translateY(40px);
-        }
-    }
-    nav ul li a{
-        color: white;
-        background-color:inherit;
-        padding: 1em 0.5em;
-
-    }
-
-    nav ul li a:hover{
-        background-color: inherit;
-    }
-
-    .about-content{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .about-container img{
-        width: 50%;
-    }
-    .resume img{
-        margin-bottom: 19px;
-    }
-
-    .resume p{
-        width: 350px;
-    }
-
-    .resume-content{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .contact-details .phone{
-        font-size: 1em;
-    }
-
-    .contact-details .email{
-        font-size: 1em;
-    }
-
+  .contact-details .email {
+    font-size: 1em;
+  }
 }
