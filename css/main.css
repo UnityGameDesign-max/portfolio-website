@@ -26,6 +26,10 @@ ul{
     margin-left: 7px;
 }
 
+header a{
+    text-decoration: none;
+}
+
 .logo:hover{
     color: rgb(17, 135, 204);
 }

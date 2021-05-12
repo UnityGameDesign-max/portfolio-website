@@ -11,7 +11,7 @@
 
     <div class="container">
         <header>
-            <h4 class="logo">TumiDev</h4>
+            <a href="#home"><h4 class="logo">TumiDev</h4></a>
             <nav>
                 <a href="#" class="hide-desktop">
                     <img src="images/HamMenu.svg" alt="toggle menu" class="menu" id="menu">
@@ -20,14 +20,14 @@
                     <li id="exit" class="exit-btn hide-desktop"><img src="images/close.svg" alt="close" /></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#projects">Projects</a></li> -->
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section>
+        <section id="home">
             <img src="images/HtmlCssJs.svg" alt="htmlCssJs graphic" class="htmlCssJs">
             <h2>Real World Web Applications</h2>
             <p>Hire Tumelo &#x1F447;</p>
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="projects" id="projects">
+    <!-- <div class="projects" id="projects">
         <h1 class="project">Projects</h1>
         <img src="images/commits.svg" alt="project graphic" class="project">
         <div class="project-view">
@@ -94,7 +94,7 @@
                 <a href="projects.html">View Project: &#x1F448;</a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="resume" id="resume">
         <h1>Resume</h1>
@@ -135,6 +135,13 @@
         var menu = document.getElementById("menu");
         var nav = document.getElementById("nav");
         var exit = document.getElementById("exit");
+        var about = document.getElementById("about");
+
+
+        about.addEventListener("click", function(){
+            nav.classList.add("hide-mobile");
+            e.preventDefault();
+        });
 
         menu.addEventListener("click", function(){
             nav.classList.toggle("hide-mobile");
