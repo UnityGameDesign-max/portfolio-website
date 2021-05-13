@@ -114,11 +114,11 @@
         <form method="post" action="https://formspree.io/f/mzbyezog">
             
             <label for="fname">Name</label>
-            <input type="text" id="name" name="name" placeholder="name"><br><br>
+            <input type="text" id="name" name="name" required placeholder="name"><br><br>
             <label for="fname">Email</label>
-            <input type="email" id="email" name="email" placeholder="email"><br><br>
+            <input type="email" id="email" required name="email" placeholder="email"><br><br>
             <label for="fname">Message</label>
-            <textarea  id="message" class="message-area" name="message" rows="4" cols="20" placeholder="message"></textarea>
+            <textarea  id="message" required class="message-area" name="message" rows="4" cols="20" placeholder="message"></textarea>
             <input class="submit-btn" type="submit" value="Submit">
         </form>
 
@@ -129,7 +129,7 @@
 
         <div class="contact-details">
             <a class="email-link" href="mailto:tumie201511@gmail.com"><span class="email">tumie201511@gmail</span></a>    
-            <a class="phone-link" href="tel:0629292602"><span class="phone">+27629292602</span></a>                
+            <a class="phone-link" id="phone" href="tel:0629292602"><span class="phone">+27629292602</span></a>                
         </div>
         
     </div>
@@ -142,12 +142,15 @@
         var skills = document.getElementById("skills1");
         var resume = document.getElementById("resume1");
         var contacts = document.getElementById("contacts1");
+        var phone = document.getElementById("phone");
 
 
         about.addEventListener("click", function(){
             nav.classList.add("hide-mobile");
             e.preventDefault();
         });
+
+        phone
 
         skills.addEventListener("click", function(){
             nav.classList.add("hide-mobile");

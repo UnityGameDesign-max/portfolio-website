@@ -253,7 +253,6 @@ form {
 .phone-link{
   text-decoration: none;
   color: rgb(17, 135, 204);
-  
 }
 .contact-details img {
   width: 7%;
@@ -430,6 +429,13 @@ form {
   .contact-details .phone {
     font-size: 1em;
   }
+
+  
+.phone-link{
+  text-decoration: none;
+  color: rgb(17, 135, 204);
+  pointer-events : none
+}
 
   .contact-details .email {
     font-size: 1em;
