@@ -245,6 +245,15 @@ form {
   display: flex;
 }
 
+.email-link{
+  text-decoration: none;
+  color: rgb(17, 135, 204);
+}
+
+.phone-link{
+  text-decoration: none;
+  color: rgb(17, 135, 204);
+}
 .contact-details img {
   width: 7%;
   color: rgba(0, 0, 0, 0.527);
