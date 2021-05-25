@@ -242,12 +242,13 @@ section h2 {
 }
 
 .social-media {
-  display: grid;
-  grid-template-columns:50% auto;
+  /* display: grid;
+  grid-template-columns:50% auto; */
 }
 .social-media img {
-  width: 20%;
-  color: rgba(0, 0, 0, 0.527);
+  width: 4%;
+  margin-left:30px;
+
 }
 form {
   display: grid;
