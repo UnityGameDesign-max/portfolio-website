@@ -311,6 +311,7 @@ form {
   color: #ffff;
   text-decoration: none;
   width: calc(300px - 10em);
+  cursor: pointer;
   display: block;
   border-radius: 20px;
   padding: 0.5em;
@@ -465,7 +466,7 @@ form {
 .phone-link{
   text-decoration: none;
   color: rgb(17, 135, 204);
-  pointer-events : none
+ 
 }
 
   .contact-details .email {
